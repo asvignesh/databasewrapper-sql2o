@@ -11,5 +11,6 @@ public @interface Column {
 
   String name() default "";
 
+  boolean updateOnDuplicate() default false;
 
 }
